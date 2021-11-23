@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <table> 
+        <form action="/action_page.php">
+        <tr><td><label for="fname">First name:</label></td><td><input type="text" id="fname" name="fname"><br></td></tr>
+        <tr><td><label for="mname">Middle name:</label></td><td><input type="text" id="mname" name="mname"></td></tr>
+        <tr><td><label for="lname">Last name:</label></td><td><input type="text" id="lname" name="lname"></td></tr>
+        <tr><td><input type="radio" id="male" name="Gender" value="MALE"></td><td><label for="male">Male</label></td></tr>
+        <tr><td><input type="radio" id="female" name="Gender" value="FEMALE"></td><td><label for="female">Female</label></td></tr>
+        <tr><td><label for="email">Enter your email:</label></td><td><input type="email" id="email" name="email"></td></tr>
+        <tr><td><label for="home_address">Home Address:</label></td><td><textarea id="home_address" name="home_address" rows="4" cols="50"></textarea></td></tr>
+        <tr><td><input type="checkbox" id="computer games" name="computer games" value="Computer"></td><td><label for="computer games"> Computer Games</label></td></tr>
+        <tr><td><input type="checkbox" id="music instrument" name="music instrument" value="Instrument"></td><td><label for="music instrument">PLaying Music Instrument</label></td></tr>
+        <tr><td><input type="checkbox" id="cooking" name="cooking" value="Food"></td><td> <label for="cooking">Cooking</label><br></td></tr>
+        <tr><td><input type="checkbox" id="drawing" name="drawing" value="draw"></td><td><label for="drawing">Drawing</label></td></tr>
+        <tr><td><label for="Say_something_about_yourself">Say something about yourself:</label></td><td><textarea id="Say_something_about_yourself" name="Say_something_about_yourself" rows="4" cols="50"></textarea></td></tr>
+        <tr><td><input type="submit" value="Submit"></td><td><input type="reset" value="Reset"></td></tr>
+      </form>
+    </table>  
+</body>
+</html>
